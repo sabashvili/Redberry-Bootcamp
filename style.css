@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("images/home_background_image.png");
+}
+
+.logo {
+  position: absolute;
+  width: 236px;
+  height: 38px;
+  left: 70px;
+  top: 25px;
+}
+
+.border {
+  border: 1px solid #1a1a1a;
+  position: absolute;
+  height: 0px;
+  left: 70px;
+  right: 70px;
+  top: 89px;
+}
+
+.logo-second {
+  position: absolute;
+  width: 299px;
+  height: 299px;
+  left: 1076px;
+  top: 473px;
+  mix-blend-mode: multiply;
+}
+
+.button-resume-add {
+  justify-content: space-between;
+  padding: 18px 60px;
+  position: absolute;
+  width: 464px;
+  height: 60px;
+  left: calc(50% - 464px / 2);
+  top: 513px;
+  background: #1a1a1a;
+  border-radius: 8px;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
