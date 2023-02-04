@@ -1,0 +1,143 @@
+body {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  background: #f9f9f9;
+}
+
+.resume {
+  position: absolute;
+  width: 822px;
+  height: 1080px;
+  right: 0px;
+  top: 0px;
+  background: #ffffff;
+}
+
+.personal-text {
+  position: absolute;
+  width: 179px;
+  height: 29px;
+  left: 149px;
+  top: 47px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1a1a1a;
+}
+
+.back-icon {
+  position: absolute;
+  width: 9.21px;
+  height: 16px;
+  left: 62px;
+  top: 57px;
+}
+
+.icon-background {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 48px;
+  top: 45px;
+}
+
+.page-number {
+  position: absolute;
+  width: 29px;
+  height: 24px;
+  left: 920px;
+  top: 49px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #1a1a1a;
+}
+
+.line {
+  position: absolute;
+  width: 798px;
+  height: 0px;
+  left: 150px;
+  top: 88px;
+  border: 1px solid #1a1a1a;
+}
+
+.name-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 24px;
+  gap: 8px;
+  position: absolute;
+  width: 419px;
+  height: 122px;
+  left: calc(50% - 419px / 2 - 624.5px);
+  top: 157px;
+}
+
+.name-input-label {
+  width: 371px;
+  height: 21px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.name-input {
+  box-sizing: border-box;
+  width: 371px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.name-input-hint {
+  width: 371px;
+  height: 21px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #2e2e2e;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.last-name-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 24px;
+  gap: 8px;
+
+  position: absolute;
+  width: 419px;
+  height: 122px;
+  left: calc(50% - 419px / 2 - 197.5px);
+  top: 157px;
+}
