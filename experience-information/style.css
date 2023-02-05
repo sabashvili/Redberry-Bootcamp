@@ -197,3 +197,60 @@ body {
   margin-top: 20.67px;
   margin-left: 11.67px;
 }
+
+.person-photo {
+  position: absolute;
+  width: 246px;
+  height: 246px;
+  left: 501px;
+  top: 48px;
+  border-radius: 133px;
+}
+
+.tel-icon {
+  margin-left: 82.55px;
+  margin-top: 13.47px;
+}
+
+.tel-information {
+  display: flex;
+}
+
+.tel {
+  margin-top: 13.47px;
+  margin-left: 11.67px;
+}
+
+.about-me {
+  margin-top: 34px;
+  margin-left: 80px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #f93b1d;
+}
+
+.about-me-information {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: lowercase;
+  color: #000000;
+  width: 432px;
+  margin-top: 15px;
+  margin-left: 80px;
+  text-align: justify;
+}
+
+.line-third {
+  margin-top: 19px;
+  margin-left: 80px;
+  border: 1px solid #c8c8c8;
+  width: 662px;
+  height: 0px;
+}
