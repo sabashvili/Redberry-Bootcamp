@@ -161,3 +161,39 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
+.full-name {
+  margin-left: 80px;
+  margin-top: 68px;
+  width: 300px;
+  height: 42px;
+  left: 80px;
+  top: 68px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+  color: #f93b1d;
+}
+
+.email-symbol {
+  margin-left: 80px;
+  margin-top: 20.67px;
+}
+
+.mail-information {
+  display: flex;
+}
+
+.email {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1a1a1a;
+
+  margin-top: 20.67px;
+  margin-left: 11.67px;
+}
