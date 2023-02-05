@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>პირადი</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../common.css" />
   </head>
   <body>
     <div class="information">
-      <div class="personal-text">ᲞᲘᲠᲐᲓᲘ ᲘᲜᲤᲝ</div>
+      <div class="header">ᲞᲘᲠᲐᲓᲘ ᲘᲜᲤᲝ</div>
       <a href="../index.html">
         <div class="back-button">
           <img
@@ -25,43 +26,45 @@
       <div class="line"></div>
       <form class="personal-information-form">
         <div class="name-form">
-          <label class="name-input-label">სახელი</label>
-          <input class="name-input" type="text" />
-          <div class="name-input-hint">მინიმუმ 2 ასო, ქართული ასოები</div>
+          <label class="input-label">სახელი</label>
+          <input class="name-input text-input" type="text" />
+          <div class="input-hint">მინიმუმ 2 ასო, ქართული ასოები</div>
         </div>
 
         <div class="last-name-form">
-          <label class="name-input-label">გვარი</label>
-          <input class="name-input" type="text" />
-          <div class="name-input-hint">მინიმუმ 2 ასო, ქართული ასოები</div>
+          <label class="input-label">გვარი</label>
+          <input class="name-input text-input" type="text" />
+          <div class="input-hint">მინიმუმ 2 ასო, ქართული ასოები</div>
         </div>
 
         <div class="upload-photo-text">პირადი ფოტოს ატვირთვა</div>
         <button class="upload-photo">ატვირთვა</button>
 
         <div class="about-me-form">
-          <label class="about-me-input-label"
-            >ჩემ შესახებ (არასავალდებულო)</label
-          >
+          <label class="input-label">ჩემ შესახებ (არასავალდებულო)</label>
           <textarea class="about-me-input" cols="30" rows="10"></textarea>
         </div>
 
         <div class="email-form">
-          <label class="about-me-input-label">ელ.ფოსტა</label>
+          <label class="input-label">ელ.ფოსტა</label>
           <textarea class="email-input" cols="30" rows="10"></textarea>
-          <div class="email-hint">უნდა მთავრდებოდეს @redberry.ge-ით</div>
+          <div class="input-hint">უნდა მთავრდებოდეს @redberry.ge-ით</div>
         </div>
 
         <div class="number-form">
-          <label class="about-me-input-label">მობილურის ნომერი</label>
+          <label class="input-label">მობილურის ნომერი</label>
           <input class="email-input" type="tel" />
-          <div class="email-hint">
+          <div class="input-hint">
             უნდა აკმაყოფილებდეს ქართული მობილურის ნომრის ფორმატს
           </div>
         </div>
-        <button class="next-btn">შემდეგი</button>
+        <a href="../experience-information/index.html">
+          <button class="next-btn" type="button">შემდეგი</button>
+        </a>
       </form>
     </div>
-    <div class="resume"></div>
+    <div class="resume">
+      <img src="../Images/LOGO-12 1.svg" class="red-logo" alt="LOGO" />
+    </div>
   </body>
 </html>
