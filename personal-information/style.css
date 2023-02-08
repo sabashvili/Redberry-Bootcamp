@@ -62,7 +62,6 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 10px 10px 12px;
   gap: 10px;
   position: absolute;
   width: 107px;
@@ -176,4 +175,8 @@ body {
   height: 42px;
   left: 78px;
   top: 994px;
+}
+
+input[type="file"] {
+  display: none;
 }

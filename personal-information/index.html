@@ -24,47 +24,58 @@
 
       <div class="page-number">1/3</div>
       <div class="line"></div>
-      <form class="personal-information-form">
+      <form class="personal-information-form" id="personal-information-form">
         <div class="name-form">
           <label class="input-label">სახელი</label>
-          <input class="name-input text-input" type="text" />
+          <input id="first-name" class="name-input text-input" type="text" />
           <div class="input-hint">მინიმუმ 2 ასო, ქართული ასოები</div>
         </div>
 
         <div class="last-name-form">
           <label class="input-label">გვარი</label>
-          <input class="name-input text-input" type="text" />
+          <input id="last-name" class="name-input text-input" type="text" />
           <div class="input-hint">მინიმუმ 2 ასო, ქართული ასოები</div>
         </div>
 
         <div class="upload-photo-text">პირადი ფოტოს ატვირთვა</div>
-        <button class="upload-photo">ატვირთვა</button>
+        <label class="upload-photo">
+          <input id="photo" type="file" /> ატვირთვა
+        </label>
 
         <div class="about-me-form">
           <label class="input-label">ჩემ შესახებ (არასავალდებულო)</label>
-          <textarea class="about-me-input" cols="30" rows="10"></textarea>
+          <textarea
+            id="about-me"
+            class="about-me-input"
+            cols="30"
+            rows="10"
+          ></textarea>
         </div>
 
         <div class="email-form">
           <label class="input-label">ელ.ფოსტა</label>
-          <textarea class="email-input" cols="30" rows="10"></textarea>
+          <textarea
+            id="email"
+            class="email-input"
+            cols="30"
+            rows="10"
+          ></textarea>
           <div class="input-hint">უნდა მთავრდებოდეს @redberry.ge-ით</div>
         </div>
 
         <div class="number-form">
           <label class="input-label">მობილურის ნომერი</label>
-          <input class="email-input" type="tel" />
+          <input id="number" class="email-input" type="tel" />
           <div class="input-hint">
             უნდა აკმაყოფილებდეს ქართული მობილურის ნომრის ფორმატს
           </div>
         </div>
-        <a href="../experience-information/index.html">
-          <button class="next-btn" type="button">შემდეგი</button>
-        </a>
+        <button id="next-button" class="next-btn" type="submit">შემდეგი</button>
       </form>
     </div>
     <div class="resume">
       <img src="../Images/LOGO-12 1.svg" class="red-logo" alt="LOGO" />
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
