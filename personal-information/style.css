@@ -180,3 +180,22 @@ body {
 input[type="file"] {
   display: none;
 }
+
+.next-btn-location {
+  margin-top: 886px;
+  margin-left: 790px;
+}
+
+.page-number {
+  width: 29px;
+  height: 24px;
+  margin-top: 49px;
+  margin-left: 592px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #1a1a1a;
+}

@@ -10,34 +10,32 @@
   </head>
   <body>
     <div class="information">
-      <div class="header">განათლება</div>
       <a href="../index.html">
-        <div class="back-button">
-          <img
-            class="icon-background"
-            src="../Images/Ellipse 1.svg"
-            alt="ellipse"
-          />
+        <div class="icon-background">
           <img class="back-icon" src="../Images/Vector.svg" alt="back-icon" />
         </div>
       </a>
+      <div class="header">განათლება</div>
       <div class="page-number">3/3</div>
-      <div class="line"></div>
+    </div>
+    <div class="line"></div>
 
+    <form class="eduation-form">
       <div class="university-form">
         <label class="input-label">სასწავლებელი</label>
         <input class="university-input text-input" />
         <div class="input-hint">მინიმუმ 2 სიმბოლო</div>
       </div>
+      <div class="about-degree">
+        <div class="degree-form">
+          <label class="input-label">ხარისხი</label>
+          <input class="degree-input text-input" />
+        </div>
 
-      <div class="degree-form">
-        <label class="input-label">ხარისხი</label>
-        <input class="degree-input text-input" />
-      </div>
-
-      <div class="degree-end-form">
-        <label class="input-label">დამთავრების რიცხვი</label>
-        <input type="date" class="degree-end-input text-input" />
+        <div class="degree-end-form">
+          <label class="input-label">დამთავრების რიცხვი</label>
+          <input type="date" class="degree-end-input text-input" />
+        </div>
       </div>
 
       <div class="description-education-form">
@@ -48,17 +46,49 @@
           rows="10"
         ></textarea>
       </div>
+
       <div class="line-education"></div>
 
       <button class="more-education-btn" type="button">
         სხვა სასწავლებლის დამატება
       </button>
+      <div class="buttons">
+        <a href="../experience-information/index.html">
+          <button class="back-btn" type="button">ᲣᲙᲐᲜ</button>
+        </a>
+        <button class="finish-btn" type="button">ᲓᲐᲡᲠᲣᲚᲔᲑᲐ</button>
+      </div>
+    </form>
 
-      <a href="../experience-information/index.html">
-        <button class="back-btn" type="button">უკან</button>
-      </a>
-      <button class="next-btn" type="button">შემდეგი</button>
+    <div class="resume">
+      <div id="cv-full-name" class="full-name"></div>
+      <div class="mail-information">
+        <img
+          class="email-symbol"
+          src="../Images/email symbol.svg"
+          alt="email symbol"
+        />
+        <div id="cv-email" class="email"></div>
+      </div>
+      <img id="cv-photo" class="person-photo" src="" alt="portret" />
+      <div class="tel-information">
+        <img class="tel-icon" src="../Images/tel.svg" alt="phone" />
+        <div id="cv-number" class="tel"></div>
+      </div>
+      <div class="about-me">ჩემს შესახებ</div>
+      <div id="cv-about-me" class="about-me-information"></div>
+      <div class="line-third"></div>
+
+      <div id="experience">გამოცდილება</div>
+
+      <div id="position-and-employer"></div>
+
+      <div id="start-and-end-work"></div>
+
+      <div id="description-position"></div>
+
+      <div id="line-from-description-position"></div>
     </div>
-    <div class="resume"></div>
+    <script src="script.js"></script>
   </body>
 </html>

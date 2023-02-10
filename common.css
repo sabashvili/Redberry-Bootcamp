@@ -1,17 +1,3 @@
-.header {
-  position: absolute;
-  width: 179px;
-  height: 29px;
-  left: 149px;
-  top: 47px;
-  font-family: "Helvetica Neue";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  color: #1a1a1a;
-}
-
 .resume {
   position: absolute;
   width: 822px;
@@ -19,46 +5,6 @@
   right: 0px;
   top: 0px;
   background: #ffffff;
-}
-
-.back-icon {
-  position: absolute;
-  width: 9.21px;
-  height: 16px;
-  left: 62px;
-  top: 57px;
-}
-
-.icon-background {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  left: 48px;
-  top: 45px;
-}
-
-.page-number {
-  position: absolute;
-  width: 29px;
-  height: 24px;
-  left: 920px;
-  top: 49px;
-  font-family: "Helvetica Neue";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: right;
-  color: #1a1a1a;
-}
-
-.line {
-  position: absolute;
-  width: 798px;
-  height: 0px;
-  left: 150px;
-  top: 88px;
-  border: 1px solid #1a1a1a;
 }
 
 .text-input {
@@ -102,16 +48,6 @@
   order: 2;
 }
 
-.line-second {
-  position: absolute;
-  width: 798px;
-  height: 0px;
-  left: 149px;
-  top: 759px;
-  border: 1px solid #c1c1c1;
-  margin-top: 15px;
-}
-
 .next-btn {
   display: flex;
   flex-direction: row;
@@ -119,11 +55,8 @@
   align-items: center;
   padding: 18px 35px;
   gap: 20px;
-  position: absolute;
   width: 151px;
   height: 48px;
-  right: 972px;
-  bottom: 65px;
   background: #6b40e3;
   border-radius: 4px;
   border: none;
@@ -147,11 +80,8 @@
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  position: absolute;
   width: 113px;
   height: 48px;
-  left: 150px;
-  bottom: 65px;
   background: #6b40e3;
   border-radius: 4px;
   border: none;
@@ -167,4 +97,188 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.full-name {
+  margin-left: 80px;
+  margin-top: 68px;
+  /* width: 300px; */
+  height: 42px;
+  left: 80px;
+  top: 68px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+  color: #f93b1d;
+}
+
+.email-symbol {
+  margin-left: 80px;
+  margin-top: 20.67px;
+}
+
+.mail-information {
+  display: flex;
+}
+
+.email {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1a1a1a;
+
+  margin-top: 20.67px;
+  margin-left: 11.67px;
+}
+
+.person-photo {
+  position: absolute;
+  width: 246px;
+  height: 246px;
+  left: 501px;
+  top: 48px;
+  border-radius: 133px;
+}
+
+.tel-icon {
+  margin-left: 82.55px;
+  margin-top: 13.47px;
+}
+
+.tel-information {
+  display: flex;
+}
+
+.tel {
+  margin-top: 13.47px;
+  margin-left: 11.67px;
+}
+
+.about-me {
+  margin-top: 34px;
+  margin-left: 80px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #f93b1d;
+}
+
+.about-me-information {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: lowercase;
+  color: #000000;
+  width: 432px;
+  height: 72px;
+  margin-top: 15px;
+  margin-left: 80px;
+  text-align: justify;
+}
+
+.line-third {
+  margin-top: 19px;
+  margin-left: 80px;
+  border: 1px solid #c8c8c8;
+  width: 662px;
+  height: 0px;
+}
+
+#experience {
+  margin-top: 24px;
+  margin-left: 80px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #f93b1d;
+}
+
+#position-and-employer {
+  margin-top: 15px;
+  margin-left: 80px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1a1a1a;
+}
+
+#start-and-end-work {
+  margin-top: 7px;
+  margin-left: 80px;
+  font-family: "Helvetica Neue";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #919191;
+}
+
+#description-position {
+  margin-top: 16px;
+  margin-left: 80px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+#line-from-description-position {
+  margin-top: 32px;
+  margin-left: 80px;
+  border: 1px solid #c8c8c8;
+}
+
+/* new */
+
+.back-icon {
+  padding: 12px 16.79px 12px 14px;
+}
+
+.icon-background {
+  height: 40px;
+  width: 40px;
+  background: #ffffff;
+  border-radius: 50%;
+  margin-top: 45px;
+  margin-left: 48px;
+}
+
+.information {
+  width: 1098px;
+  display: flex;
+}
+
+.header {
+  margin-top: 47px;
+  margin-left: 61px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1a1a1a;
+}
+
+.line {
+  width: 798px;
+  height: 0px;
+  border: 1px solid #1a1a1a;
+  margin-top: 3px;
+  margin-left: 150px;
 }

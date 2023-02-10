@@ -3,19 +3,31 @@ body {
   width: 1920px;
   height: 1080px;
   background: #f9f9f9;
+  margin: 0;
+}
+
+.page-number {
+  width: 29px;
+  height: 24px;
+  margin-top: 49px;
+  margin-left: 581px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #1a1a1a;
 }
 
 .position-form {
+  margin-top: 77px;
+  margin-left: 150px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 8px 24px;
   gap: 8px;
-  position: absolute;
-  width: 846px;
-  height: 125px;
-  left: calc(50% - 846px / 2 - 411px);
-  top: 157px;
+  width: 798px;
 }
 
 .position-input {
@@ -35,13 +47,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 8px 24px;
   gap: 8px;
-  position: absolute;
-  width: 846px;
-  height: 125px;
-  left: calc(50% - 846px / 2 - 411px);
-  top: 294px;
+  width: 798px;
+  margin-left: 150px;
+  margin-top: 31px;
 }
 
 .employer-input {
@@ -57,23 +66,24 @@ body {
   flex-grow: 0;
 }
 
+.experience-date {
+  margin-left: 150px;
+  width: 798px;
+  display: flex;
+}
+
 .start-work-form {
+  margin-top: 31px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 8px 24px;
   gap: 8px;
-  position: absolute;
-  width: 419px;
-  height: 125px;
-  left: calc(50% - 419px / 2 - 624.5px);
-  top: 431px;
+  width: 371px;
 }
 
 .start-work-input {
   box-sizing: border-box;
   width: 371px;
-  height: 48px;
   background: #ffffff;
   border: 1px solid #bcbcbc;
   border-radius: 4px;
@@ -84,22 +94,19 @@ body {
 }
 
 .end-work-form {
+  margin-top: 31px;
+  margin-left: 56px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 8px 24px;
   gap: 8px;
-  position: absolute;
-  width: 419px;
+  width: 371px;
   height: 93px;
-  left: calc(50% - 419px / 2 - 197.5px);
-  top: 431px;
 }
 
 .end-work-input {
   box-sizing: border-box;
   width: 371px;
-  height: 48px;
   background: #ffffff;
   border: 1px solid #bcbcbc;
   border-radius: 4px;
@@ -110,16 +117,14 @@ body {
 }
 
 .description-form {
+  width: 798px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 8px 24px;
   gap: 8px;
-  position: absolute;
-  width: 846px;
-  height: 168px;
-  left: calc(50% - 846px / 2 - 411px);
-  top: 541px;
+  width: 798px;
+  margin-left: 150px;
+  margin-top: 33px;
 }
 
 .description-input {
@@ -136,17 +141,24 @@ body {
   resize: none;
 }
 
+.line-second {
+  width: 798px;
+  height: 0px;
+  border: 1px solid #c1c1c1;
+  margin-top: 58px;
+  margin-left: 149px;
+}
+
 .add-more-btn {
+  margin-left: 149px;
+  margin-top: 45px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  position: absolute;
   width: 289px;
   height: 48px;
-  left: calc(50% - 289px / 2 - 666.5px);
-  top: 804px;
   background: #62a1eb;
   border-radius: 4px;
   border: none;
@@ -162,95 +174,12 @@ body {
   flex-grow: 0;
 }
 
-.full-name {
-  margin-left: 80px;
-  margin-top: 68px;
-  /* width: 300px; */
-  height: 42px;
-  left: 80px;
-  top: 68px;
-  font-family: "Helvetica Neue";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 42px;
-  color: #f93b1d;
-}
-
-.email-symbol {
-  margin-left: 80px;
-  margin-top: 20.67px;
-}
-
-.mail-information {
+.buttons {
+  margin-top: 115px;
+  margin-left: 150px;
   display: flex;
 }
 
-.email {
-  font-family: "Helvetica Neue";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #1a1a1a;
-
-  margin-top: 20.67px;
-  margin-left: 11.67px;
-}
-
-.person-photo {
-  position: absolute;
-  width: 246px;
-  height: 246px;
-  left: 501px;
-  top: 48px;
-  border-radius: 133px;
-}
-
-.tel-icon {
-  margin-left: 82.55px;
-  margin-top: 13.47px;
-}
-
-.tel-information {
-  display: flex;
-}
-
-.tel {
-  margin-top: 13.47px;
-  margin-left: 11.67px;
-}
-
-.about-me {
-  margin-top: 34px;
-  margin-left: 80px;
-  font-family: "Helvetica Neue";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-
-  color: #f93b1d;
-}
-
-.about-me-information {
-  font-family: "Helvetica Neue";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  text-transform: lowercase;
-  color: #000000;
-  width: 432px;
-  margin-top: 15px;
-  margin-left: 80px;
-  text-align: justify;
-}
-
-.line-third {
-  margin-top: 19px;
-  margin-left: 80px;
-  border: 1px solid #c8c8c8;
-  width: 662px;
-  height: 0px;
+.next-btn-location {
+  margin-left: 534px;
 }

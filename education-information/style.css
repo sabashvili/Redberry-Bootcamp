@@ -3,19 +3,31 @@ body {
   width: 1920px;
   height: 1080px;
   background: #f9f9f9;
+  margin: 0;
+}
+
+.page-number {
+  width: 29px;
+  height: 24px;
+  margin-top: 49px;
+  margin-left: 630px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #1a1a1a;
 }
 
 .university-form {
+  margin-top: 77px;
+  margin-left: 150px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 8px 24px;
   gap: 8px;
-  position: absolute;
-  width: 846px;
-  height: 125px;
-  left: calc(50% - 846px / 2 - 411px);
-  top: 157px;
+  width: 798px;
 }
 
 .university-input {
@@ -31,17 +43,19 @@ body {
   flex-grow: 0;
 }
 
+.about-degree {
+  display: flex;
+  margin-left: 150px;
+  width: 798px;
+}
+
 .degree-form {
+  margin-top: 31px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 8px 24px;
   gap: 8px;
-  position: absolute;
-  width: 419px;
-  height: 125px;
-  left: calc(50% - 419px / 2 - 624.5px);
-  top: 294px;
+  width: 371px;
 }
 
 .degree-input {
@@ -58,16 +72,13 @@ body {
 }
 
 .degree-end-form {
+  margin-top: 31px;
+  margin-left: 56px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 8px 24px;
   gap: 8px;
-  position: absolute;
   width: 419px;
-  height: 93px;
-  left: calc(50% - 419px / 2 - 197.5px);
-  top: 294px;
 }
 
 .degree-end-input {
@@ -84,16 +95,14 @@ body {
 }
 
 .description-education-form {
+  width: 798px;
+  margin-left: 150px;
+  margin-top: 34px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 8px 24px;
   gap: 8px;
-  position: absolute;
   width: 846px;
-  height: 224px;
-  left: calc(50% - 846px / 2 - 411px);
-  top: 405px;
 }
 
 .description-education-input {
@@ -111,25 +120,23 @@ body {
 }
 
 .line-education {
-  position: absolute;
+  margin-top: 53px;
+  margin-left: 150px;
   width: 798px;
   height: 0px;
-  left: 150px;
-  top: 674px;
   border: 1px solid #c1c1c1;
 }
 
 .more-education-btn {
+  margin-left: 150px;
+  margin-top: 45px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  position: absolute;
   width: 289px;
   height: 48px;
-  left: calc(50% - 289px / 2 - 665.5px);
-  top: 719px;
 
   background: #62a1eb;
   border-radius: 4px;
@@ -140,6 +147,38 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.buttons {
+  margin-top: 214px;
+  margin-left: 150px;
+  display: flex;
+}
+
+.finish-btn {
+  margin-left: 535px;
+  padding: 14px 19.5px 14px 19.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 151px;
+  height: 48px;
+  background: #6b40e3;
+  border-radius: 4px;
+  border: none;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+
   color: #ffffff;
   flex: none;
   order: 0;
