@@ -25,3 +25,26 @@ document.getElementById(
   "start-and-end-work"
 ).textContent = `${startWork} - ${endWork}`;
 document.getElementById("description-position").textContent = description;
+
+const dropdown = document.getElementById("dropdown-input");
+const list = document.getElementById("list");
+dropdown.addEventListener("click", function (e) {
+  list.classList.toggle("hidden");
+});
+
+let degree = document.getElementById("degree-input");
+const listItems = document.getElementsByClassName("elements");
+
+for (const item of listItems) {
+  item.addEventListener("click", function (e) {
+    degree.value = e.target.textContent;
+    list.classList.toggle("hidden");
+  });
+}
+
+document.addEventListener("click", (e) => {
+  const degreeForm = document.getElementById("degree-form");
+  if (!degreeForm.contains(e.target)) {
+    list.classList.add("hidden");
+  }
+});

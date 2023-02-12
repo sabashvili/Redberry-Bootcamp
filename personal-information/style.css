@@ -199,3 +199,32 @@ input[type="file"] {
   text-align: right;
   color: #1a1a1a;
 }
+
+.full-name {
+  display: flex;
+  margin-top: 68px;
+  margin-left: 80px;
+}
+
+#cv-first-name {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+  color: #f93b1d;
+}
+
+#cv-last-name {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+  color: #f93b1d;
+  margin-left: 20px;
+}
+
+.hidden {
+  visibility: hidden !important;
+}

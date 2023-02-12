@@ -27,9 +27,28 @@
         <div class="input-hint">მინიმუმ 2 სიმბოლო</div>
       </div>
       <div class="about-degree">
-        <div class="degree-form">
+        <div id="degree-form" class="degree-form">
           <label class="input-label">ხარისხი</label>
-          <input class="degree-input text-input" />
+          <div id="dropdown-input" class="dropdown-input">
+            <input
+              type="button"
+              value="აირჩიეთ ხარისხი"
+              class="degree-input text-input"
+              id="degree-input"
+            />
+            <img class="arrow" src="../Images/dropdown.svg" />
+          </div>
+          <ul id="list" class="hidden">
+            <li class="elements">საშუალო სკოლის დიპლომი</li>
+            <li class="elements">ზოგადსაგანმანათლებლო დიპლომი</li>
+            <li class="elements">ბაკალავრი</li>
+            <li class="elements">მაგისტრი</li>
+            <li class="elements">დოქტორი</li>
+            <li class="elements">ასოცირებული ხარისხი</li>
+            <li class="elements">სტუდენტი</li>
+            <li class="elements">კოლეჯი (ხარისხის გარეშე)</li>
+            <li class="elements">სხვა</li>
+          </ul>
         </div>
 
         <div class="degree-end-form">

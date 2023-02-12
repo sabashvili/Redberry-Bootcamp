@@ -20,50 +20,52 @@
     </div>
     <div class="line"></div>
     <form id="experience-information-form" class="experience-information">
-      <div class="position-form">
-        <label class="input-label">თანამდეგობა</label>
-        <input id="cv-position" class="position-input text-input" />
-        <div class="input-hint">მინიმუმ 2 სიმბოლო</div>
-      </div>
+      <div id="experience-information-form-conteiner">
+        <div id="for-clone">
+          <div class="position-form">
+            <label class="input-label">თანამდეგობა</label>
+            <input id="cv-position" class="position-input text-input" />
+            <div class="input-hint">მინიმუმ 2 სიმბოლო</div>
+          </div>
+          <div class="employer-form">
+            <label class="input-label">დამსაქმებელი</label>
+            <input id="cv-empleyer" class="employer-input text-input" />
+            <div class="input-hint">მინიმუმ 2 სიმბოლო</div>
+          </div>
+          <div class="experience-date">
+            <div class="start-work-form">
+              <label class="input-label">დაწყების რიცხვი</label>
+              <input
+                id="cv-start-work"
+                type="date"
+                class="start-work-input text-input"
+              />
+            </div>
 
-      <div class="employer-form">
-        <label class="input-label">დამსაქმებელი</label>
-        <input id="cv-empleyer" class="employer-input text-input" />
-        <div class="input-hint">მინიმუმ 2 სიმბოლო</div>
-      </div>
-      <div class="experience-date">
-        <div class="start-work-form">
-          <label class="input-label">დაწყების რიცხვი</label>
-          <input
-            id="cv-start-work"
-            type="date"
-            class="start-work-input text-input"
-          />
+            <div class="end-work-form">
+              <label class="input-label">დამთავრების რიცხვი</label>
+              <input
+                id="cv-end-work"
+                type="date"
+                class="end-work-input text-input"
+              />
+            </div>
+          </div>
+
+          <div class="description-form">
+            <label class="input-label">აღწერა</label>
+            <textarea
+              id="cv-description"
+              class="description-input text-input"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <div class="line-second"></div>
         </div>
-
-        <div class="end-work-form">
-          <label class="input-label">დამთავრების რიცხვი</label>
-          <input
-            id="cv-end-work"
-            type="date"
-            class="end-work-input text-input"
-          />
-        </div>
       </div>
-
-      <div class="description-form">
-        <label class="input-label">აღწერა</label>
-        <textarea
-          id="cv-description"
-          class="description-input text-input"
-          cols="30"
-          rows="10"
-        ></textarea>
-      </div>
-
-      <div class="line-second"></div>
-
-      <button class="add-more-btn" type="button">
+      <button id="add-more-experience-btn" class="add-more-btn" type="button">
         მეტი გამოცდილების დამატება
       </button>
 
